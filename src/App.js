@@ -8,13 +8,12 @@ function App() {
   const [email, setemail] = useState('');
   const [country, setcountry] = useState('');
   const [phone, setphone] = useState('');
-  const [password, setpassword] = useState('');
 
   let submitForm = () =>{
     Swal.fire({
       title: `My name is ${name} && I live in ${country}`,
       text: `Do you ${email} want to continue`,
-      icon: 'error',
+      icon: 'success',
       confirmButtonText: `Cool ${phone}`
     })
   }
