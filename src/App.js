@@ -12,7 +12,7 @@ function App() {
   let submitForm = () =>{
     Swal.fire({
       title: `My name is ${name} && I live in ${country}`,
-      text: `Do you ${email} want to continue`,
+      text: `Do you ${email} want to continue browsing`,
       icon: 'success',
       confirmButtonText: `Cool ${phone}`
     })
